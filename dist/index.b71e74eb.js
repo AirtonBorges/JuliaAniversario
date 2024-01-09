@@ -584,11 +584,10 @@ var _runtime = require("@splinetool/runtime");
 // Import stylesheets
 var _styleCss = require("./style.css");
 const canvas = document.getElementById("canvas3d");
-const app = new (0, _runtime.Application)(canvas, {
-    renderMode: "auto"
-});
+const app = new (0, _runtime.Application)(canvas);
 app.load("https://prod.spline.design/Ool1yrMNAr14WtQa/scene.splinecode");
 console.log(app);
+app.load("Loading...");
 
 },{"@splinetool/runtime":"dUFrn","./style.css":"bhJkM"}],"dUFrn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
